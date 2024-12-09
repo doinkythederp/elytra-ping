@@ -29,8 +29,8 @@ pub struct ServerVersion {
 #[derive(Serialize, Deserialize, Debug, Hash, Clone, PartialEq, Eq)]
 #[non_exhaustive]
 pub struct ServerPlayers {
-    pub max: u32,
-    pub online: u32,
+    pub max: i32,
+    pub online: i32,
     pub sample: Option<Vec<ServerPlayersSample>>,
 }
 

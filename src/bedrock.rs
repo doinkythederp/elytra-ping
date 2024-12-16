@@ -51,6 +51,7 @@ impl From<BedrockServerInfo> for crate::JavaServerInfo {
             enforces_secure_chat: None,
             prevents_chat_reports: None,
             previews_chat: None,
+            forge_data: None,
         }
     }
 }
